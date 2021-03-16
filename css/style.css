@@ -1,0 +1,42 @@
+.formulario {
+    margin-top: 50px;
+}
+
+.form {
+    width: 50%;
+    height: 55%;
+}
+
+.alt {
+    height: 100px;
+}
+
+.bg-image {
+    background-image: url(../img/bg5.jpg);
+    height: 87.3%;
+    width: 100%;
+    filter: saturate(60%);
+    background-attachment: fixed;
+}
+
+.espaco {
+    padding-top: 10rem;
+}
+
+.bg-image2 {
+    background-image: url(../img/bg1.jpg);
+    height: 87.3%;
+    width: 100%;
+    filter: saturate(60%);
+    background-attachment: fixed;
+}
+
+.fundo {
+    background-color: rgb(117, 117, 117);
+    height: 88%;
+    width: 100%
+}
+
+.listaGrupos {
+    background-color: black!important;
+}
