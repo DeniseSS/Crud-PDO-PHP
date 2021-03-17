@@ -13,10 +13,11 @@
 
 .bg-image {
     background-image: url(../img/bg5.jpg);
-    height: 87.3%;
+    height: 100%;
     width: 100%;
     filter: saturate(60%);
-    background-attachment: fixed;
+    position: fixed;
+   
 }
 
 .espaco {
@@ -25,10 +26,11 @@
 
 .bg-image2 {
     background-image: url(../img/bg1.jpg);
-    height: 87.3%;
+    height: 100%;
     width: 100%;
     filter: saturate(60%);
-    background-attachment: fixed;
+    position: fixed;
+  
 }
 
 .fundo {

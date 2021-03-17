@@ -2,9 +2,9 @@
 require_once 'menu.php';
 
 ?>
-<div class="bg-image2">
+<main class="jumbotron bg-image2  align-items-center" style="border-radius:0px;">
     
-        <div class="container espaco bg-transparent" align="center">
+        <div class="container" align="center">
             <div class="container">
                 <?php
                 if (isset($_SESSION['msg'])) {
@@ -14,7 +14,7 @@ require_once 'menu.php';
                 ?>
             </div>
             
-            <main class="form" style="background-color:rgba(10,20,10, 0.7); ">
+            <div class="card my-4 w-50" style="background-color:rgba(10,20,10, 0.7); ">
             <br/>
             <h5 class="text-white">INFORME SEUS DADOS</h5>
 
@@ -27,7 +27,7 @@ require_once 'menu.php';
                         <div class="form-group col-md-6" align="center">
                             <input type="email" class="form-control" name="email" placeholder="Email">
                         </div>
-                    </div>
+                    
                     <div class="form-group col-md-6" align="center">
                         <input type="password" class="form-control" name="senha" placeholder="Senha">
                     </div>
@@ -36,10 +36,10 @@ require_once 'menu.php';
                     </div>
                     <button type="submit" class="btn btn-outline-light  my-1 mr-sm-2">Cadastrar</button>
                 </form>
-            </main>
+            </div>
             </div>
     
-</div>
+</main>
 </body>
 
 </html>
